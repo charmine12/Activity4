@@ -1,0 +1,60 @@
+body{
+    background-image: url('basketball-shoes.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    }
+    
+    table{
+        width: 80%;
+        margin: 40px auto;
+        background: rgb(rgb(34, 13, 34), rgb(15, 17, 37), rgb(83, 83, 153)) ;
+    }
+    table.list{
+        text-align: center;
+        width: 100%;
+    }
+    td{
+        border: 1px solid rgb(rgb(124, 58, 124), rgb(97, 71, 38), rgb(45, 45, 85));
+        text-align: center;
+        padding: 8px 15;
+    }
+    
+    tr:nth-child(even), table.list thread> tr{
+        background-color: antiquewhite;
+    
+    }
+    input[type="text"]{
+        width: 91%;
+        padding: 12px 20px;
+        margin:  8px 0;
+        display: inline-block;
+        border: 1px solid aquamarine;
+         border-radius: 4px;
+    
+    }
+    
+    input[type="text"]{
+        background: #eee;
+        padding: 6px 12px;
+        margin:  15px 0 15px;
+        display: inline-block;
+        border: none;
+        border-radius: 30px;
+        font-size: 1rem;
+        cursor: pointer;
+        outline: none;
+    }
+    input[type="submit"]:hover{
+    
+        background-color: beige;
+    }
+    input[type="delete"]:hover{
+    
+        background-color: bisque;
+    }
+    
+    button:hover{
+        background-color: bisque;
+    }
